@@ -386,7 +386,7 @@ class WebVTTWriter(BaseWriter):
         :type s: unicode
         """
         s = s.replace(u'&', u'&amp;')
-        s = s.replace(u'<', u'&lt;')
+        #s = s.replace(u'<', u'&lt;')
 
         # The substring "-->" is also not allowed according to this:
         #   - http://dev.w3.org/html5/webvtt/#dfn-webvtt-cue-block
